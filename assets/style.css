@@ -1,0 +1,262 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.search_input {
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 393px;  
+}
+
+.botao {
+    background-color: white;
+    border-color: #2A7AE4;
+    border-style: solid;
+    color:#2A7AE4;
+    font-weight: bold;
+    height: 51px;
+    width: 182px;
+}
+
+.iniciar_sessao {
+    text-align: center;
+}
+
+.sessao_login {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao_login > input, .sessao_login > textarea {
+    margin: 25px 0;
+}
+
+.titulo_produto {
+    text-align: center;  
+}
+
+.detalhe_conteudo_produto {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.detalhe_conteudo_produto > div {
+    text-align: center;
+    width: 50%;
+}
+
+.detalhe_conteudo_produto > div > p {
+    padding: 0 50px;
+    text-align: left;
+}
+
+.produtos_similares {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.trocador_bebe {
+    width: 390px;
+}
+
+.text_button_senha {
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 393px; 
+}
+
+.foto_layout {  
+    background-image: url('/assets/imagem/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1249px 305px;
+    height: 305px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
+}
+
+.foto_layout > h1 {
+    color: #2493d5;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+
+.botao_desconto_layout {
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 51px;
+    margin-left: 50px;
+    width: 182px;
+}
+
+.produto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto img {
+    width: 175px;
+}
+
+.produto_cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.produto_titulo {
+    text-align: left;
+}
+
+.produto_detalhe {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.produto_detalhe > span {
+    margin: 5px 0;
+}
+
+.produto_conteudo {
+    margin-bottom: 100px;
+}
+
+.link {
+    color: #2A7AE4;
+    font-weight: bold;
+}
+
+.rodape {
+    background-color: #EAF2FD;
+    text-align: center;   
+}
+
+.rodape_top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.rodape_top ul {
+    line-height: 30px;
+    list-style: none;
+    margin: 0;
+    text-align: left;
+}
+
+.rodape_top h3 {
+    text-align: left;
+}
+
+.rodape_bottom {
+    background-color: white;
+}
+
+.rodape_bottom p {
+    font-weight: 500;
+    line-height: 24px;
+    padding: 50px 0;
+}
+
+.rodape_input {
+    border: none;
+    border-bottom: solid #ccc;
+    border-radius: 5px;
+    color: #747474;
+    height: 36px;
+    padding: 10px 20px;
+    width: 80%;
+}
+
+.rodape_textarea {
+    border: none;
+    border-bottom: solid #ccc;
+    border-radius: 5px;
+    color: #747474;
+    height: 76px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 80%;
+}
+
+.rodape_form {
+    text-align: left;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.rodape_form > .botao_desconto_layout {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+@media (max-width: 665px) {
+     .rodape_top {
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .rodape_form {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+     }
+
+     .rodape_form > h3 {
+        text-align: center;
+     }
+
+     header {
+        height: auto;
+        flex-direction:column;
+     }
+     header > input {
+        margin: 10px 0;
+     }
+}
+
+/*Mobile*/
+@media (max-width: 900px) {
+    .detalhe_conteudo_produto {
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .detalhe_conteudo_produto > div {
+        width: auto;
+    }
+}
