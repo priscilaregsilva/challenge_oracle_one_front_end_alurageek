@@ -30,6 +30,10 @@ header {
     font-weight: bold;
     height: 51px;
     width: 182px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    border-width: 2px;
 }
 
 .iniciar_sessao {
@@ -42,8 +46,8 @@ header {
     flex-direction: column;
 }
 
-.sessao_login > input, .sessao_login > textarea {
-    margin: 25px 0;
+.sessao_login input, .sessao_login textarea {
+    margin: 15px 0;
 }
 
 .titulo_produto {
@@ -116,6 +120,22 @@ header {
     height: 51px;
     margin-left: 50px;
     width: 182px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    border-width: 2px;
+    display: block;
+}
+
+.botao_desconto_submit {
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 51px;
+    width: 182px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .produto {
@@ -144,14 +164,39 @@ header {
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin: 10px 10px 50px 10px;
 }
 
 .produto_detalhe > span {
     margin: 5px 0;
 }
 
+.produto_conteudo_top {
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+
 .produto_conteudo {
     margin-bottom: 100px;
+}
+
+.botao_editar {
+    width: 150px;
+    height: 30px;
+    background-color: #2A7AE4;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.botao_deletar {
+    width: 150px;
+    height: 30px;
+    background-color: #e42a2a;
+    border: 0;
+    color: white;
+    cursor: pointer;
 }
 
 .link {

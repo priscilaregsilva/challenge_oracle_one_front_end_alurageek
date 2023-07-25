@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1,
+      "nome": "Babador de Bebê 1",
+      "preco": "30.00",
+      "imagem": "/assets/imagem/babador_bebe/babador_bebe_1.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Babador de Bebê 2",
+      "preco": "10.00",
+      "imagem": "/assets/imagem/babador_bebe/babador_bebe_2.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Babador de Bebê 3",
+      "preco": "15.00",
+      "imagem": "/assets/imagem/babador_bebe/babador_bebe_3.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Babador de Bebê 4",
+      "preco": "30.00",
+      "imagem": "/assets/imagem/babador_bebe/babador_bebe_4.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Babador de Bebê 5",
+      "preco": "25.00",
+      "imagem": "/assets/imagem/babador_bebe/babador_bebe_5.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Babador de Bebê 6",
+      "preco": "10.00",
+      "imagem": "/assets/imagem/babador_bebe/babador_bebe_6.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Protetor de Bebê 1",
+      "preco": "100.00",
+      "imagem": "/assets/imagem/protetor_bebe/protetor_bebe_1.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Protetor de Bebê 2",
+      "preco": "200,00",
+      "imagem": "/assets/imagem/protetor_bebe/protetor_bebe_2.jpg"
+    },
+    {
+      "id": 9,
+      "nome": "Protetor de Bebê 3",
+      "preco": "150.00",
+      "imagem": "/assets/imagem/protetor_bebe/protetor_bebe_3.jpg"
+    },
+    {
+      "id": 10,
+      "nome": "Protetor de Bebê 4",
+      "preco": "150.00",
+      "imagem": "/assets/imagem/protetor_bebe/protetor_bebe_4.jpg"
+    },
+    {
+      "id": 11,
+      "nome": "Protetor de Bebê 5",
+      "preco": "280.00",
+      "imagem": "/assets/imagem/protetor_bebe/protetor_bebe_5.jpg"
+    },
+    {
+      "id": 12,
+      "nome": "Protetor de Bebê 6",
+      "preco": "100.00",
+      "imagem": "/assets/imagem/protetor_bebe/protetor_bebe_6.jpg"
+    },
+    {
+      "id": 13,
+      "nome": "Bolsa Maternidade 1",
+      "preco": "700.00",
+      "imagem": "/assets/imagem/bolsa_mala_maternidade/mala_maternidade_1.jpg"
+    },
+    {
+      "id": 14,
+      "nome": "Bolsa Maternidade 2",
+      "preco": "750.00",
+      "imagem": "/assets/imagem/bolsa_mala_maternidade/mala_maternidade_2.jpg"
+    },
+    {
+      "id": 15,
+      "nome": "Bolsa Maternidade 3",
+      "preco": "800.00",
+      "imagem": "/assets/imagem/bolsa_mala_maternidade/mala_maternidade_3.jpg"
+    },
+    {
+      "id": 16,
+      "nome": "Bolsa Maternidade 4",
+      "preco": "850.00",
+      "imagem": "/assets/imagem/bolsa_mala_maternidade/mala_maternidade_4.jpg"
+    },
+    {
+      "id": 17,
+      "nome": "Bolsa Maternidade 5",
+      "preco": "700.00",
+      "imagem": "/assets/imagem/bolsa_mala_maternidade/mala_maternidade_5.jpg"
+    },
+    {
+      "id": 18,
+      "nome": "Bolsa Maternidade 6",
+      "preco": "800.00",
+      "imagem": "/assets/imagem/bolsa_mala_maternidade/mala_maternidade_6.jpg"
+    }
+  ]
